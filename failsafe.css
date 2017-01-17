@@ -1,0 +1,27 @@
+* {
+    margin: 5px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#container {
+    margin-top:50px;
+    width:40%;
+    margin-left:30%;
+    margin-right:30%;
+    border:1px solid #000;
+    border-radius:5px;
+    background:lightgray;
+    padding:10px 20px 10px 10px;
+}
+h2 {
+    text-align:center;
+    bottom:20px;
+}
+table {
+    width:100%;
+    border-radius:5px;
+}
+th, td {
+    padding:5px;
+    border-radius:5px;
+}
