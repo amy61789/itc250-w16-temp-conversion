@@ -7,7 +7,7 @@
  Degrees: 
  <input type = "text" name = "degree" size=3> 
  <select name="scale">
-     <option value="celcius">Celsius</option>
+     <option value="celsius">Celsius</option>
      <option value="fahrenheit">Fahrenheit</option>
      <option value="kelvin">Kelvin</option>
      <option value="rankine">Rankine</option>
@@ -32,7 +32,7 @@ include 'temperatureclass.php';
         
         //switch statement to convert the input depending on scale and format it for output
         switch ($scale) {
-            case "celcius":
+            case "celsius":
                 $degC = number_format($degree, 2);
                 $degF = number_format((Temperature::c2f($degree)), 2);
                 $degK = number_format((Temperature::c2k($degree)), 2);
