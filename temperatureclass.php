@@ -5,7 +5,7 @@ class Temperature
      {
         public static function f2c($degree)
         {  
-			 return ($degree - 32) * 5 / 9;
+	     return ($degree - 32) * 5 / 9;
         }
      
         public static function c2f($degree)
